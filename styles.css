@@ -33,8 +33,19 @@ img {
   width: 100px;
 }
 
-blockquote {
+.quote {
   background-color: #e5e7eb;
+  color: #1f2937;
+  & em {
+    font-size: 36px;
+    font-weight: 100;
+  }
+  & p {
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 button {
